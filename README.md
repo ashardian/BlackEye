@@ -61,7 +61,7 @@ sudo dpkg -i cloudflared-linux-amd64.deb
 
 
 
-![alt text](https://raw.githubusercontent.com/ashardian/BlackEye.git/main/img/1.png)
+![alt text](https://github.com/ashardian/BlackEye/blob/main/img/1.png)
 
 ## 🌐 Optional: Using SSH Tunnel (like localhost.run)
 

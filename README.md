@@ -15,7 +15,6 @@ This is a modified version of the **BlackEye** phishing toolkit. The original ve
 - `php`
 - `cloudflared` (for WAN tunneling)
 - `bash`
-- Optional: `jq`, `xsel` for link shortening or clipboard copy (not required)
 
 Install `cloudflared`:
 
@@ -30,13 +29,14 @@ sudo dpkg -i cloudflared-linux-amd64.deb
 
 1. **Clone the repository** (if not already):
    ```bash
-   git clone --recurse-submodules https://github.com/An0nUD4Y/blackeye.git
+   git clone https://github.com/ashardian/BlackEye.git
+   unzip blackeye-v2.zip
    cd blackeye
    ```
 
 2. **Make the script executable**:
    ```bash
-   chmod +x blackeye_modified.sh
+   chmod +x blackeye.sh
    ```
 
 3. **Run the script**:
@@ -53,11 +53,15 @@ sudo dpkg -i cloudflared-linux-amd64.deb
    ```
 
 6. 🔗 The script will:
-   - Launch PHP server on `localhost:3333`
+   - Launch PHP server on `localhost:5555`
    - If **Cloudflared** is chosen: Start a WAN tunnel and show the link
-   - If **Localhost** is chosen: Show your LAN IP (e.g., `http://192.168.1.5:3333`)
+   - If **Localhost** is chosen: Show your LAN IP (e.g., `http://192.168.1.5:5555`)
 
 ---
+
+
+
+![alt text](https://raw.githubusercontent.com/ashardian/BlackEye.git/main/img/1.png)
 
 ## 🌐 Optional: Using SSH Tunnel (like localhost.run)
 

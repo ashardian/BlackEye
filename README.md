@@ -31,7 +31,7 @@ sudo dpkg -i cloudflared-linux-amd64.deb
    ```bash
    git clone https://github.com/ashardian/BlackEye.git
    unzip blackeye-v2.zip
-   cd blackeye
+   cd blackeye-v2
    ```
 
 2. **Make the script executable**:
